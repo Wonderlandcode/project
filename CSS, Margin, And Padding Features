@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+  color: white;
+}
+
+.introduction {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.skills {
+  padding: 20px;
+}
+
+.skills ul {
+  list-style-type: none;
+}
+
+.skills li {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  header, footer {
+    text-align: center;
+  }
+}
